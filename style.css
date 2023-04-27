@@ -39,6 +39,7 @@
 }
 
 .header-div1{
+    background: url("./Images/");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,4 +126,11 @@ button:hover{
     #rme{
         margin-left: 0;
         width: 1rem;
+    }
+
+    ::placeholder{
+        color: #ffff;
+    }
+    :-ms-input-placeholder{
+        color: #ffff;
     }
